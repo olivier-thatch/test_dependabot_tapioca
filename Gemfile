@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.3.0"
 
+gem "sorbet-runtime"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
@@ -45,11 +47,15 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  gem "tapioca", require: false
+
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 end
 
 group :development do
+  gem "sorbet"
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
