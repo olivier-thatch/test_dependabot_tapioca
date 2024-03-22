@@ -143,11 +143,7 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.16.2-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-arm-linux)
-      racc (~> 1.4)
     nokogiri (1.16.2-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.2-x86-linux)
       racc (~> 1.4)
     nokogiri (1.16.2-x86_64-darwin)
       racc (~> 1.4)
@@ -220,15 +216,15 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sorbet (0.5.11288)
-      sorbet-static (= 0.5.11288)
-    sorbet-runtime (0.5.11288)
-    sorbet-static (0.5.11288-aarch64-linux)
-    sorbet-static (0.5.11288-universal-darwin)
-    sorbet-static (0.5.11288-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11288)
-      sorbet (= 0.5.11288)
-      sorbet-runtime (= 0.5.11288)
+    sorbet (0.5.11305)
+      sorbet-static (= 0.5.11305)
+    sorbet-runtime (0.5.11305)
+    sorbet-static (0.5.11305-aarch64-linux)
+    sorbet-static (0.5.11305-universal-darwin)
+    sorbet-static (0.5.11305-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11305)
+      sorbet (= 0.5.11305)
+      sorbet-runtime (= 0.5.11305)
     spoom (1.2.4)
       erubi (>= 1.10.0)
       sorbet-static-and-runtime (>= 0.5.10187)
@@ -283,9 +279,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  arm-linux
   arm64-darwin
-  x86-linux
   x86_64-darwin
   x86_64-linux
 
